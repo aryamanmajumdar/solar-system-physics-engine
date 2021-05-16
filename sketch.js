@@ -14,7 +14,7 @@ function setup() {
       //create planet in random position
   let r = random(sun.r + 50, min(windowWidth/2, windowHeight/2));
   let theta = random(TWO_PI);
-  let planetPos = createVector(r*cos(theta, r*sin(theta)));
+  let planetPos = createVector(r*cos(theta), r*sin(theta)));
   
   //and an appropriate velocity
   //so that it stays in sun's orbit
